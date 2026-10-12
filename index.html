@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de la persona Usuaria</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <h1>Registro de la persona Usuaria</h1>
+
+  <form id="formulario" action="#" method="post">
+
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" class="campo"><br><br>
+
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" class="campo"><br><br>
+
+    <label for="correo">Correo electrónico:</label><br>
+    <input type="email" id="correo" name="correo" class="campo"><br><br>
+
+    <label for="contrasena">Contraseña:</label><br>
+    <input type="password" id="contrasena" name="contrasena" class="campo"><br><br>
+
+    <label for="descripcion">Cuéntanos sobre ti:</label><br>
+    <textarea id="descripcion" name="descripcion" rows="4" class="campo"></textarea><br><br>
+
+    <p>Intereses:</p>
+    <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia">
+    <label for="tecnologia">Tecnología</label><br>
+
+    <input type="checkbox" id="arte" name="intereses" value="arte">
+    <label for="arte">Arte</label><br>
+
+    <input type="checkbox" id="deporte" name="intereses" value="deporte">
+    <label for="deporte">Deporte</label><br><br>
+
+    <button type="submit" id="boton">Registrarse</button>
+
+  </form>
+
+</body>
+</html>
